@@ -1,0 +1,68 @@
+/home/rydham/miniconda3/envs/monai/lib/python3.10/site-packages/generative/networks/layers/vector_quantizer.py:86: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/rydham/miniconda3/envs/monai/lib/python3.10/site-packages/generative/networks/layers/vector_quantizer.py:124: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+Total paired scans: 194
+Train: 145 | Test: 49
+Train used: 130 | Val: 15
+
+=== Training diffusion model ===
+[EP 01/50] Train loss 0.7748 | Val L1 1.8808, MAE 1.8808, SSIM 0.0001, PSNR -7.65
+[EP 02/50] Train loss 0.3260 | Val L1 0.8228, MAE 0.8228, SSIM 0.0011, PSNR -0.47
+[EP 03/50] Train loss 0.0844 | Val L1 0.1980, MAE 0.1980, SSIM 0.0723, PSNR 11.53
+[EP 04/50] Train loss 0.0553 | Val L1 0.1603, MAE 0.1603, SSIM 0.0943, PSNR 13.54
+[EP 05/50] Train loss 0.0486 | Val L1 0.1117, MAE 0.1117, SSIM 0.2141, PSNR 15.89
+[EP 06/50] Train loss 0.0428 | Val L1 0.0922, MAE 0.0922, SSIM 0.3644, PSNR 16.77
+[EP 07/50] Train loss 0.0252 | Val L1 0.0829, MAE 0.0829, SSIM 0.4287, PSNR 17.51
+[EP 08/50] Train loss 0.0309 | Val L1 0.0823, MAE 0.0823, SSIM 0.5108, PSNR 17.21
+[EP 09/50] Train loss 0.0269 | Val L1 0.0884, MAE 0.0884, SSIM 0.4501, PSNR 16.69
+[EP 10/50] Train loss 0.0221 | Val L1 0.0860, MAE 0.0860, SSIM 0.3667, PSNR 17.23
+[EP 11/50] Train loss 0.0265 | Val L1 0.0931, MAE 0.0931, SSIM 0.4559, PSNR 16.32
+[EP 12/50] Train loss 0.0200 | Val L1 0.0864, MAE 0.0864, SSIM 0.5616, PSNR 16.80
+[EP 13/50] Train loss 0.0223 | Val L1 0.0974, MAE 0.0974, SSIM 0.3838, PSNR 16.33
+[EP 14/50] Train loss 0.0359 | Val L1 0.0983, MAE 0.0983, SSIM 0.4119, PSNR 15.99
+[EP 15/50] Train loss 0.0253 | Val L1 0.1151, MAE 0.1151, SSIM 0.2087, PSNR 15.11
+[EP 16/50] Train loss 0.0223 | Val L1 0.0933, MAE 0.0933, SSIM 0.3628, PSNR 16.30
+[EP 17/50] Train loss 0.0244 | Val L1 0.0910, MAE 0.0910, SSIM 0.3968, PSNR 16.50
+[EP 18/50] Train loss 0.0224 | Val L1 0.0886, MAE 0.0886, SSIM 0.4286, PSNR 16.78
+[EP 19/50] Train loss 0.0218 | Val L1 0.0892, MAE 0.0892, SSIM 0.5191, PSNR 16.27
+[EP 20/50] Train loss 0.0168 | Val L1 0.0928, MAE 0.0928, SSIM 0.3246, PSNR 16.72
+[EP 21/50] Train loss 0.0183 | Val L1 0.0795, MAE 0.0795, SSIM 0.5439, PSNR 17.23
+[EP 22/50] Train loss 0.0178 | Val L1 0.1006, MAE 0.1006, SSIM 0.2933, PSNR 16.13
+[EP 23/50] Train loss 0.0181 | Val L1 0.0910, MAE 0.0910, SSIM 0.5400, PSNR 15.99
+[EP 24/50] Train loss 0.0171 | Val L1 0.1095, MAE 0.1095, SSIM 0.4479, PSNR 14.52
+[EP 25/50] Train loss 0.0168 | Val L1 0.0805, MAE 0.0805, SSIM 0.5541, PSNR 17.18
+[EP 26/50] Train loss 0.0218 | Val L1 0.1442, MAE 0.1442, SSIM 0.2380, PSNR 12.72
+[EP 27/50] Train loss 0.0231 | Val L1 0.0746, MAE 0.0746, SSIM 0.6089, PSNR 17.82
+[EP 28/50] Train loss 0.0182 | Val L1 0.1018, MAE 0.1018, SSIM 0.3967, PSNR 15.54
+[EP 29/50] Train loss 0.0191 | Val L1 0.0942, MAE 0.0942, SSIM 0.5038, PSNR 15.88
+[EP 30/50] Train loss 0.0167 | Val L1 0.0877, MAE 0.0877, SSIM 0.4456, PSNR 16.58
+[EP 31/50] Train loss 0.0145 | Val L1 0.1049, MAE 0.1049, SSIM 0.5169, PSNR 14.79
+[EP 32/50] Train loss 0.0170 | Val L1 0.1267, MAE 0.1267, SSIM 0.3539, PSNR 13.56
+[EP 33/50] Train loss 0.0170 | Val L1 0.1374, MAE 0.1374, SSIM 0.3713, PSNR 12.96
+[EP 34/50] Train loss 0.0147 | Val L1 0.1420, MAE 0.1420, SSIM 0.2131, PSNR 13.16
+[EP 35/50] Train loss 0.0177 | Val L1 0.1159, MAE 0.1159, SSIM 0.4416, PSNR 14.08
+[EP 36/50] Train loss 0.0150 | Val L1 0.1325, MAE 0.1325, SSIM 0.2586, PSNR 13.69
+[EP 37/50] Train loss 0.0223 | Val L1 0.0997, MAE 0.0997, SSIM 0.4923, PSNR 15.58
+[EP 38/50] Train loss 0.0173 | Val L1 0.1250, MAE 0.1250, SSIM 0.2205, PSNR 13.90
+[EP 39/50] Train loss 0.0137 | Val L1 0.1246, MAE 0.1246, SSIM 0.4173, PSNR 13.62
+[EP 40/50] Train loss 0.0174 | Val L1 0.1394, MAE 0.1394, SSIM 0.2356, PSNR 13.13
+[EP 41/50] Train loss 0.0123 | Val L1 0.0900, MAE 0.0900, SSIM 0.5631, PSNR 16.11
+[EP 42/50] Train loss 0.0168 | Val L1 0.1359, MAE 0.1359, SSIM 0.2897, PSNR 13.05
+[EP 43/50] Train loss 0.0199 | Val L1 0.1851, MAE 0.1851, SSIM 0.1288, PSNR 10.75
+[EP 44/50] Train loss 0.0180 | Val L1 0.0896, MAE 0.0896, SSIM 0.4525, PSNR 16.52
+[EP 45/50] Train loss 0.0193 | Val L1 0.1177, MAE 0.1177, SSIM 0.3967, PSNR 14.11
+[EP 46/50] Train loss 0.0153 | Val L1 0.1539, MAE 0.1539, SSIM 0.3329, PSNR 11.91
+[EP 47/50] Train loss 0.0140 | Val L1 0.1220, MAE 0.1220, SSIM 0.4509, PSNR 13.65
+[EP 48/50] Train loss 0.0183 | Val L1 0.1196, MAE 0.1196, SSIM 0.4551, PSNR 13.83
+[EP 49/50] Train loss 0.0151 | Val L1 0.1365, MAE 0.1365, SSIM 0.3473, PSNR 12.85
+[EP 50/50] Train loss 0.0158 | Val L1 0.1357, MAE 0.1357, SSIM 0.4469, PSNR 12.93
+
+Saved best diffusion model to runs_diffusion_post_from_pre/best_diffusion_unet.pt
+
+=== Test evaluation (diffusion) ===
+[TEST] L1 0.0810, MAE 0.0810, SSIM 0.6006, PSNR 17.35
+
+=== Saving test predictions for analysis ===
+Saved 49 triplets (in/out/tgt) to runs_diffusion_post_from_pre/pred_samples
+Done.

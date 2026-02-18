@@ -1,0 +1,74 @@
+# ==============================================================
+# Patient Medical Data (SENSITIVE - never upload)
+# ==============================================================
+pre_scans/
+post_scans/
+Masks/
+
+# ==============================================================
+# Trained Model Weights (too large for GitHub)
+# ==============================================================
+*.pt
+
+# ==============================================================
+# Prediction Outputs (contain patient scan data as .npy)
+# ==============================================================
+**/pred_samples/
+
+# ==============================================================
+# Patient Identification Files
+# ==============================================================
+**/test_set_patients.txt
+**/test_set_patients_moss.txt
+
+# ==============================================================
+# Patient-Specific Evaluation Outputs
+# ==============================================================
+# Per-patient evaluation results (contain patient IDs)
+**/evaluation_results.json
+**/ground_truth_evaluation.json
+
+# Per-patient evaluation plots (contain patient IDs in filenames)
+**/patient_*.png
+
+# ==============================================================
+# Visualization Outputs Derived from Patient Scans
+# ==============================================================
+# Difference panels (show actual patient brain scans)
+**/differences/*.png
+**/differences/*.csv
+
+# Analysis panels (show patient brain scan samples)
+**/analysis/
+
+# Root-level mask overlay images (derived from patient CBF data)
+Mask evaluations/masks_on_cbf_overlay.png
+Mask evaluations/left_MCA_mask_visualization.png
+Mask evaluations/right_MCA_mask_visualization.png
+Mask evaluations/both_MCA_masks_visualization.png
+
+# ==============================================================
+# Python Cache
+# ==============================================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ==============================================================
+# IDE / Editor
+# ==============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+paper_text.txt
+revised paper (MIDL).pdf
+*.pdf

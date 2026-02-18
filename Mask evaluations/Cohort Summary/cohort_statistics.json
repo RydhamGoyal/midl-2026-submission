@@ -1,0 +1,354 @@
+{
+  "description": "Cohort summary statistics using pixel-by-pixel % change with \u00b1200% cap",
+  "formula": "For each pixel: pct = (post - pre) / pre * 100, capped at \u00b1200%, threshold pre > 0.05",
+  "models": {
+    "cAE": {
+      "display_name": "cAE",
+      "statistics": {
+        "left": {
+          "n_patients": 11,
+          "ground_truth": {
+            "unhealthy": {
+              "mean": 29.076772689819336,
+              "std": 28.709720740465794,
+              "variance": 824.2480649955319
+            },
+            "healthy": {
+              "mean": 7.956625407392329,
+              "std": 16.578564021991767,
+              "variance": 274.8487850312799
+            }
+          },
+          "prediction": {
+            "unhealthy": {
+              "mean": 17.411316069689665,
+              "std": 47.409258456922174,
+              "variance": 2247.6377874352465
+            },
+            "healthy": {
+              "mean": 3.8557564434595406,
+              "std": 25.565496124658583,
+              "variance": 653.594592099933
+            }
+          }
+        },
+        "right": {
+          "n_patients": 22,
+          "ground_truth": {
+            "unhealthy": {
+              "mean": 15.692322210832076,
+              "std": 26.104564182240118,
+              "variance": 681.4482711446938
+            },
+            "healthy": {
+              "mean": 15.655818173577162,
+              "std": 27.799807566225336,
+              "variance": 772.8293007191595
+            }
+          },
+          "prediction": {
+            "unhealthy": {
+              "mean": 10.433292172171853,
+              "std": 33.26678075665058,
+              "variance": 1106.6787019110577
+            },
+            "healthy": {
+              "mean": 5.2837590683590285,
+              "std": 23.94426399829782,
+              "variance": 573.3277784201811
+            }
+          }
+        },
+        "both": {
+          "n_patients": 15,
+          "ground_truth": {
+            "unhealthy": {
+              "mean": 41.05547974904378,
+              "std": 17.840514229907452,
+              "variance": 318.2839479875303
+            },
+            "healthy": {
+              "mean": 21.292386213938396,
+              "std": 15.751385607253468,
+              "variance": 248.1061485483917
+            }
+          },
+          "prediction": {
+            "unhealthy": {
+              "mean": 38.72835454940796,
+              "std": 39.98698588608394,
+              "variance": 1598.9590402538763
+            },
+            "healthy": {
+              "mean": 35.59547681808472,
+              "std": 31.552109267882198,
+              "variance": 995.5355992523777
+            }
+          }
+        }
+      },
+      "n_patients_evaluated": 48
+    },
+    "DDPM": {
+      "display_name": "DDPM",
+      "statistics": {
+        "left": {
+          "n_patients": 11,
+          "ground_truth": {
+            "unhealthy": {
+              "mean": 29.076772689819336,
+              "std": 28.709720740465794,
+              "variance": 824.2480649955319
+            },
+            "healthy": {
+              "mean": 7.956625407392329,
+              "std": 16.578564021991767,
+              "variance": 274.8487850312799
+            }
+          },
+          "prediction": {
+            "unhealthy": {
+              "mean": -9.534954759207638,
+              "std": 44.35005844549909,
+              "variance": 1966.927684119185
+            },
+            "healthy": {
+              "mean": -14.772600650787354,
+              "std": 26.598603306973455,
+              "variance": 707.4856978817392
+            }
+          }
+        },
+        "right": {
+          "n_patients": 22,
+          "ground_truth": {
+            "unhealthy": {
+              "mean": 15.692322210832076,
+              "std": 26.104564182240118,
+              "variance": 681.4482711446938
+            },
+            "healthy": {
+              "mean": 15.655818173577162,
+              "std": 27.799807566225336,
+              "variance": 772.8293007191595
+            }
+          },
+          "prediction": {
+            "unhealthy": {
+              "mean": -8.396399520337582,
+              "std": 34.48412559833778,
+              "variance": 1189.1549182819351
+            },
+            "healthy": {
+              "mean": -12.781898509372365,
+              "std": 25.214890087448268,
+              "variance": 635.790682122097
+            }
+          }
+        },
+        "both": {
+          "n_patients": 15,
+          "ground_truth": {
+            "unhealthy": {
+              "mean": 41.05547974904378,
+              "std": 17.840514229907452,
+              "variance": 318.2839479875303
+            },
+            "healthy": {
+              "mean": 21.292386213938396,
+              "std": 15.751385607253468,
+              "variance": 248.1061485483917
+            }
+          },
+          "prediction": {
+            "unhealthy": {
+              "mean": 21.648532231648762,
+              "std": 37.201439806278074,
+              "variance": 1383.947123660131
+            },
+            "healthy": {
+              "mean": 9.648007901509603,
+              "std": 24.450552981277088,
+              "variance": 597.829541090238
+            }
+          }
+        }
+      },
+      "n_patients_evaluated": 48
+    },
+    "ColdDiffusion": {
+      "display_name": "ColdDiffusion",
+      "statistics": {
+        "left": {
+          "n_patients": 11,
+          "ground_truth": {
+            "unhealthy": {
+              "mean": 29.076772689819336,
+              "std": 28.709720740465794,
+              "variance": 824.2480649955319
+            },
+            "healthy": {
+              "mean": 7.956625407392329,
+              "std": 16.578564021991767,
+              "variance": 274.8487850312799
+            }
+          },
+          "prediction": {
+            "unhealthy": {
+              "mean": 26.842317060990766,
+              "std": 50.201402479154,
+              "variance": 2520.1808108740092
+            },
+            "healthy": {
+              "mean": 19.713088165629994,
+              "std": 25.410736401337147,
+              "variance": 645.7055244582407
+            }
+          }
+        },
+        "right": {
+          "n_patients": 22,
+          "ground_truth": {
+            "unhealthy": {
+              "mean": 15.692322210832076,
+              "std": 26.104564182240118,
+              "variance": 681.4482711446938
+            },
+            "healthy": {
+              "mean": 15.655818173577162,
+              "std": 27.799807566225336,
+              "variance": 772.8293007191595
+            }
+          },
+          "prediction": {
+            "unhealthy": {
+              "mean": 17.39533952149478,
+              "std": 42.258558254002935,
+              "variance": 1785.7857457069595
+            },
+            "healthy": {
+              "mean": 13.212750023061579,
+              "std": 33.99034144201474,
+              "variance": 1155.3433113447447
+            }
+          }
+        },
+        "both": {
+          "n_patients": 15,
+          "ground_truth": {
+            "unhealthy": {
+              "mean": 41.05547974904378,
+              "std": 17.840514229907452,
+              "variance": 318.2839479875303
+            },
+            "healthy": {
+              "mean": 21.292386213938396,
+              "std": 15.751385607253468,
+              "variance": 248.1061485483917
+            }
+          },
+          "prediction": {
+            "unhealthy": {
+              "mean": 53.408325322469075,
+              "std": 38.01518705307473,
+              "variance": 1445.154446680261
+            },
+            "healthy": {
+              "mean": 46.765533785025276,
+              "std": 25.443447267872042,
+              "variance": 647.3690088729852
+            }
+          }
+        }
+      },
+      "n_patients_evaluated": 48
+    },
+    "ResidualDiffusion": {
+      "display_name": "ResidualDiffusion",
+      "statistics": {
+        "left": {
+          "n_patients": 11,
+          "ground_truth": {
+            "unhealthy": {
+              "mean": 29.076772689819336,
+              "std": 28.709720740465794,
+              "variance": 824.2480649955319
+            },
+            "healthy": {
+              "mean": 7.956625407392329,
+              "std": 16.578564021991767,
+              "variance": 274.8487850312799
+            }
+          },
+          "prediction": {
+            "unhealthy": {
+              "mean": 26.406613436612215,
+              "std": 42.605031609732315,
+              "variance": 1815.1887184662896
+            },
+            "healthy": {
+              "mean": 18.55010951649059,
+              "std": 20.933425998455554,
+              "variance": 438.2083240328149
+            }
+          }
+        },
+        "right": {
+          "n_patients": 22,
+          "ground_truth": {
+            "unhealthy": {
+              "mean": 15.692322210832076,
+              "std": 26.104564182240118,
+              "variance": 681.4482711446938
+            },
+            "healthy": {
+              "mean": 15.655818173577162,
+              "std": 27.799807566225336,
+              "variance": 772.8293007191595
+            }
+          },
+          "prediction": {
+            "unhealthy": {
+              "mean": 27.571099438450553,
+              "std": 36.33879859230602,
+              "variance": 1320.508283132182
+            },
+            "healthy": {
+              "mean": 20.576977653936908,
+              "std": 23.84977152708548,
+              "variance": 568.8116018941772
+            }
+          }
+        },
+        "both": {
+          "n_patients": 15,
+          "ground_truth": {
+            "unhealthy": {
+              "mean": 41.05547974904378,
+              "std": 17.840514229907452,
+              "variance": 318.2839479875303
+            },
+            "healthy": {
+              "mean": 21.292386213938396,
+              "std": 15.751385607253468,
+              "variance": 248.1061485483917
+            }
+          },
+          "prediction": {
+            "unhealthy": {
+              "mean": 54.306749979654946,
+              "std": 36.728047899777785,
+              "variance": 1348.949502528371
+            },
+            "healthy": {
+              "mean": 45.964627639452615,
+              "std": 27.274864050295996,
+              "variance": 743.9182089621289
+            }
+          }
+        }
+      },
+      "n_patients_evaluated": 48
+    }
+  }
+}
