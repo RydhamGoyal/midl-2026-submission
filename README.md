@@ -6,7 +6,7 @@
 > Stanford University  
 > \*First author, †Co-senior author, ‡Senior author
 
-**[Paper Link](https://openreview.net/forum?id=WMBUxtRdxB#discussion)
+**[Paper Link](https://openreview.net/forum?id=WMBUxtRdxB#discussion)**
 ---
 
 ## Abstract
