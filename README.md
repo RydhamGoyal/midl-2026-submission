@@ -1,12 +1,10 @@
 # Generating Post-Acetazolamide Cerebral Blood Flow MRI for High-risk Stroke Patients
 
-**Accepted to [MIDL 2026](https://2026.midl.io) (Medical Imaging with Deep Learning) — Taipei, Taiwan | July 8–10, 2026**
+**Accepted to [MIDL 2026](https://2026.midl.io) (Medical Imaging with Deep Learning) — Taipei, Taiwan | July 8–10, 2026 ; [Paper](https://openreview.net/forum?id=WMBUxtRdxB#discussion)**
 
 > **Rydham Goyal**\*, Camila Gonzalez, Sasha Alexander, Aja Zou, Michael E. Moseley, Moss Y. Zhao†, Gary K. Steinberg‡  
 > Stanford University  
 > \*First author, †Co-senior author, ‡Senior author
-
-**[Paper Link](https://openreview.net/forum?id=WMBUxtRdxB#discussion)**
 ---
 
 ## Abstract
